@@ -15,7 +15,7 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    height: 500px;
+    height: 450px;
     width: 400px;
     padding:0px 20px 0px 20px;
     transform: translate(-50%, -50%);
@@ -41,16 +41,16 @@ input[type=text], input[type=password] {
   }
   .logH{
     text-align: center ;
-    margin: 50px;
+    margin: 20px;
     font-size: 30px;
   }
   button {
     background-color: #04AA6D;
     color: white;
     padding: 14px 20px;
-    margin: 48px 0;
+    margin: 28px 0;
     border: none;
-
+    font-size: 20px;
     width: 100%;
     
   }
