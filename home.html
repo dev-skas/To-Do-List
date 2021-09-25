@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="todo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="top">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: rgba(0, 0, 0, 0.384);">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+              <a class="navbar-brand" href="#">To Do List</a>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page"  href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="todo.html">To Do</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Sign Out</a>
+                  </li>
+                  
+                </ul>
+                
+              </div>
+             
+            </div>
+          </nav>
+    </div>
+
+    <div class="homeContainer">
+        <div class="card text-center">
+            <div  id="date"class="card-header">
+              Featured
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Every day’s to-do list</h5>
+              <p class="card-text">Checking items off a to-do list doesn’t determine progress; focusing on your priorities is what counts</p>
+              <a href="todo.html" style="background-color:#ff81ab;" class="btn ">Check ToDo List</a>
+            </div>
+            <div class="card-footer text-muted">
+             Updated 2 days ago
+            </div>
+          </div>
+        </div>
+<script>
+   let date = new Date().toUTCString().slice(5, 16);
+ document.getElementById("date").innerHTML = date
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+</body>
+</html>

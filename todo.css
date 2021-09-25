@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0%;
+}
+body{
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+    background-color: rgb(247, 214, 242);
+    overflow-x: hidden;
+
+    
+}
+.top{
+    background: #642B73;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C6426E, #642B73);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C6426E, #642B73); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     height: 300px;
+}
+.homeContainer{
+    margin-top: -100px;
+    background-color: white;
+   
+   position: relative;
+   width: 80%;    
+   margin-left: auto;
+   margin-right:auto;
+   
+   border-top-left-radius:20px ;
+   border-top-right-radius:20px ;
+}
+ .listContainer{
+     margin-top: -120px;
+     background-color: white;
+    
+    position: relative;
+    width: 68%;    
+    margin-left: auto;
+    margin-right:auto;
+    padding-top: 30px;
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+
+       
+}
+.listContainer li{    
+    list-style-type: none;    
+    /* background-color: rgb(235, 233, 233); */
+    background-color: rgba(0, 0, 0, 0.034);
+    padding: 30px 5px;
+    margin:15px 25px;
+    border-left: 6px solid #C6426E;
+    font-size: 19px;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+
+} 
+ input[type=checkbox]{
+    float: right;
+    margin-right:10px;
+    height: 20px;    
+    width: 20px;
+}
+
+
+@media screen and (max-width: 767px) {
+    .listContainer{
+        width: 98%;    
+       
+        
+    }
+  }
